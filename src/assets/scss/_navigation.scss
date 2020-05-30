@@ -1,6 +1,6 @@
 .site-navigation{
 
-    height: 65px;
+    height: 60px;
     width: 100%;
     background: white;
     display: flex;
@@ -34,7 +34,7 @@
             color: $text-color;
 
             &:hover{
-                color: $text-link;
+                color: black;
             }
            
         }

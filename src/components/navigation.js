@@ -24,7 +24,7 @@ const navlinks = [
 export default function Navigation () {
     return (
         <nav className = "site-navigation">
-        <span> My React BLog</span> 
+        <span className = "menu-title"> My React BLog</span> 
         <ul>
         { navlinks.map ((link, index) => (
          <li key = {index}>
